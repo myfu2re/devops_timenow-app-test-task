@@ -6,14 +6,14 @@
     <title>Sample Web App</title>
 </head>
 <body>
-    <h1>Awersome web site for checking what time is it now</h1>
+    <h1>Awesome web site for checking what time is it now</h1>
     <img src="clock.jpeg" alt="Clock picture" style="width:200px;height:200px;">
     <button onclick="getData()">Get Time</button>
     <div id="result"></div>
     <script>
         function getData() {
             // Replace this URL with your backend API endpoint
-            const apiUrl = 'http://localhost:8080/time';
+            const apiUrl = 'http://localhost:8080/api';
 
             // Make a GET request to the API
             fetch(apiUrl)
